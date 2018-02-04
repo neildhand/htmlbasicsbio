@@ -2,22 +2,31 @@
 <html>
 <head>
 	<title>HTML basic bio</title>
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 <body>
-	<h1>Basic HTML Bio</h1> 
-	<h2>Neil Dhand</h2>
-	
-	<img src="https://wallpapercave.com/wp/N2bCU7w.jpg" height="30%" width="30%"> 
-	
-	<p>This should be a short bio paragraph but I am just practicing my coding so I don't feel like writing a serious bio.</p>
+	<header>
+		<h1 id="header">Basic HTML Bio</h1> 
+	</header>
 
-	<h3>Contact Info</h3>
-	<ul>
-		<li>Email: <a href="mailto:dhandneil@gmail.com?Subject=Hello%20again" target="_top">dhandneil@gmail.com</a></li>
-		<li>Github: <a href="https://github.com/neildhand">neildhand</a></li>
-		<li>Portfolio: <a href="https://neildhand.github.io/Dec2017Portfolio/">Neil Dhand Portfolio</a></li>
+	<div class="container">
+		<section id="main">
+			<h2 id="name">Neil Dhand</h2>
+	
+			<img src="https://wallpapercave.com/wp/N2bCU7w.jpg" height="35%" width="35%" id="bio-image"> 
+	
+			<p>This should be a short bio paragraph but I am just practicing my coding so I don't feel like writing a serious bio.</p>
+		</section>
 
-	</ul>
+		<section id="contact">
+			<h3>Contact Info</h3>
+			<ul>
+				<li><strong>Email:</strong> <a href="mailto:dhandneil@gmail.com?Subject=Hello%20again" target="_top">dhandneil@gmail.com</a></li>
+				<li><strong>Github:</strong> <a href="https://github.com/neildhand">neildhand</a></li>
+				<li><strong>Portfolio:</strong> <a href="https://neildhand.github.io/Dec2017Portfolio/">Neil Dhand Portfolio</a></li>
+			</ul>
+	</section>
+	</div>
 
 
 </body>
